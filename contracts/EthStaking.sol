@@ -22,7 +22,7 @@ contract EthStaking {
 
     function stakeEth() public payable returns (uint256) {
         require( msg.value >= 5 ether, "Stake value should be greater than 5 eth" );
-        _stakeHolders[msg.sender] = msg.value;
+        _stakeHolders[msg.sender] += msg.value;
         return msg.value;
     }
 
