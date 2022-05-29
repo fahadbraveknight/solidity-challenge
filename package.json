@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "openzeppelin-solidity": "^4.6.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@openzeppelin/contracts": "^4.6.0"
+  }
+}
